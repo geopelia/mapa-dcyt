@@ -1,0 +1,20 @@
+{
+  "name": "mapa_dcyt",
+  "version": "0.0.0",
+  "authors": [
+    "Atilio Quintero <atilioquintero@gmail.com>"
+  ],
+  "license": "GPL-3.0+",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "pure": "~0.5.0",
+    "openlayers": "*"
+  }
+}

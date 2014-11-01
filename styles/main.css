@@ -1,0 +1,43 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin: 1em 1em 3em;
+  background-color: #fff;
+  background-image:
+  linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+  linear-gradient(#eee .1em, transparent .1em);
+  background-size: 100% 1.2em;
+}
+div#map-container {
+  background-color: blue;
+  height: 22em;
+  width: 26em;
+}
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+div.content-2 > p {
+  text-align: center;
+}
+div > h3 {
+  margin: 1em 0em;
+  text-align: center;
+}
+.footer {
+  background-color: #2D3E50;
+  height: 5em;
+  padding-top: 3em;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.footer p, .footer a {
+  color: #fff;
+  vertical-align: middle;
+}
+.footer a {
+  text-decoration: none;
+}

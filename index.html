@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa de la UCLA</title>
+    <link rel="stylesheet" href="bower_components/pure/base-min.css">
+    <link rel="stylesheet" href="bower_components/pure/grids-min.css">
+    <link rel="stylesheet" href="styles/mapa_dcyt.min.css">
+    <link rel="stylesheet" href="bower_components/openlayers/theme/default/style.css" type="text/css">
+</head>
+
+<body>
+  <div class="pure-g">
+    <div class="tabs  pure-u-1">
+      <div class="tab2s center" >
+        <input id="tab-1" type="radio" name="radio-set" class=" tab-selector-1" checked="checked" />
+        <label for="tab-1" class="tab-label-1">Google Map</label>
+        <input id="tab-2" type="radio" name="radio-set" class=" tab-selector-2" />
+        <label for="tab-2" class="tab-label-2">Open Layers</label>
+        <div class="clear-shadow"></div>
+          <h3>Mapa del DCyT + KML</h3>
+        <div class="center content">
+          <div class="content-1">
+            <div id="map-container"></div>
+          </div>
+        </div>
+      </div>
+      <div class="center links">
+        <a href="http://www.ucla.edu.ve/">UCLA</a>
+        <a href="http://dcyt.ucla.edu.ve/">DCYT</a>
+      </div>
+    </div>
+    <div class="footer pure-u-1-1">
+      <p class="center">
+        Hecho por <a href="#">Atilio Quintero</a> usando <a href="#">purecss</a>
+      </p>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDt5ZpM8urk--_s9atzVboM2XG5Po33pF0&sensor=FALSE">
+  </script>
+  <script type="text/javascript" src="bower_components/openlayers/lib/OpenLayers.js">
+  </script>
+  <script type="text/javascript" src="build/mapa_dcyt.min.js"></script>
+
+</body>
+</html>

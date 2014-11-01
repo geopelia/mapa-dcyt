@@ -1,0 +1,75 @@
+.tab2s {
+    margin: 0 auto;
+    width: 27em;
+
+}
+.tabs input {
+    z-index: 1000;
+    width: 1em;
+    height: 1em;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.tabs label {
+    background: linear-gradient(top, #5ba4a4 0%,#4e8c8a 100%);
+
+    position: relative;
+    padding: 0 1em;
+    float: left;
+    display: block;
+    height: 2em;
+    line-height: 2em;
+
+    color: #385c5b;
+
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.3);
+    border-radius: 3px 3px 0 0;
+    box-shadow: 2px 0 2px rgba(0,0,0,0.1), -2px 0 2px rgba(0,0,0,0.1);
+}
+
+.tabs input:hover + label {
+    background: #5ba4a4;
+}
+
+.tabs label:first-of-type {
+    z-index: 4;
+    box-shadow: 2px 0 2px rgba(0,0,0,0.1);
+}
+
+.tab-label-2 {
+    z-index: 3;
+}
+.clear-shadow {
+  clear: both;
+}
+.tabs input:checked + label {
+    background: #fff;
+    z-index: 6;
+}
+div.content {
+    background: #fff;
+    width: 30em;
+    z-index: 5;
+    box-shadow: 0 -2px 3px -2px rgba(0,0,0,0.2), 0 2px 2px rgba(0,0,0,0.1);
+    border-radius: 0 3px 3px 3px;
+}
+div.links {
+  margin-top: 1em;
+}
+
+/**div.content div {
+    z-index: 1;
+    opacity: 0;
+    transition: all linear 0.1s;
+}
+.tabs input.tab-selector-1:checked ~ .content .content-1 ,
+.tabs input.tab-selector-2:checked ~ .content .content-1 #map-container
+.tabs input.tab-selector-1:checked ~ .content .content-1 #map-container  {
+    z-index: 100;
+    opacity: 1;
+    transition: all ease-out 0.2s 0.1s;
+}*/
