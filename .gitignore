@@ -3,3 +3,5 @@ dist
 build
 styles/*.min.css
 bower_components
+*~
+
